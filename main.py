@@ -146,7 +146,6 @@ def start_game():
             bala_visible = False
         if bala_visible:
             disparar_bala(bala_x, bala_y)
-            print(3)
             bala_y -= bala_y_cambio
             
         # Movimiento enemigo
